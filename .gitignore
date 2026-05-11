@@ -1,67 +1,85 @@
-# Dependencies
-node_modules/
-.pnp/
+# dependencies
+/node_modules
+/.pnp
 .pnp.js
 
-# Build output
-.next/
-out/
-dist/
-build/
-export/
+# testing
+/coverage
 
-# Environment files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# next.js
+/.next/
+/out/
 
-# Debug logs
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*.bak
-*.backup
+# local env files
+.env
+.env*.local
 
-# OS
-.DS_Store
-Thumbs.db
-desktop.ini
-ehthumbs.db
-
-# TypeScript
-*.tsbuildinfo
-
-# Vercel
+# vercel
 .vercel
 
-# Testing
-coverage/
-*.lcov
+# typescript
+*.tsbuildinfo
+next-env.d.ts
 
-# Temporary files
-*.tmp
-*.temp
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# logs
+logs
 *.log
 
-# Cache
-.cache/
-.parcel-cache/
-.eslintcache
+# temporary files
+*.tmp
+*.bak
+*.cache
 
 # Optional npm cache directory
 .npm
 
+# Optional eslint cache
+.eslintcache
+
 # Optional REPL history
 .node_repl_history
 
-# Build info
-build-info.json
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+.env.production
+
+# parcel-bundler cache (used in Next.js standalone mode)
+.cache
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/

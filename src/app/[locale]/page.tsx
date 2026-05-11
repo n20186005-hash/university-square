@@ -1,18 +1,18 @@
 import { setRequestLocale } from 'next-intl/server';
-import Header from '@/components/Header';
-import Hero from '@/components/Hero';
-import Intro from '@/components/Intro';
-import BasicInfo from '@/components/BasicInfo';
-import HoursSection from '@/components/HoursSection';
-import TicketsSection from '@/components/TicketsSection';
-import TransportSection from '@/components/TransportSection';
-import RouteSection from '@/components/RouteSection';
-import PhotoSpotsSection from '@/components/PhotoSpotsSection';
-import HotelsSection from '@/components/HotelsSection';
-import Gallery from '@/components/Gallery';
-import Reviews from '@/components/Reviews';
-import MapEmbed from '@/components/MapEmbed';
-import Footer from '@/components/Footer';
+import Header from '@/components/university-square/Header';
+import Hero from '@/components/university-square/Hero';
+import Intro from '@/components/university-square/Intro';
+import BasicInfo from '@/components/university-square/BasicInfo';
+import HoursSection from '@/components/university-square/HoursSection';
+import TicketsSection from '@/components/university-square/TicketsSection';
+import TransportSection from '@/components/university-square/TransportSection';
+import RouteSection from '@/components/university-square/RouteSection';
+import PhotoSpotsSection from '@/components/university-square/PhotoSpotsSection';
+import HotelsSection from '@/components/university-square/HotelsSection';
+import Gallery from '@/components/university-square/Gallery';
+import Reviews from '@/components/university-square/Reviews';
+import MapEmbed from '@/components/university-square/MapEmbed';
+import Footer from '@/components/university-square/Footer';
 
 export default async function HomePage({
   params,
@@ -42,4 +42,8 @@ export default async function HomePage({
       <Footer />
     </>
   );
+}
+
+export function generateStaticParams() {
+  return [];
 }

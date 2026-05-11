@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "title": "University Square｜Bucharest Historical & Cultural Heart｜Best European Spots",
+    "description": "Complete guide to University Square in Bucharest. Learn about opening hours, transportation, nearby attractions, tour tips and stunning photos. Key symbol of 1989 Revolution, historical and cultural square."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "University Square",
+    "subtitle": "The Historical and Cultural Heart of Bucharest",
+    "rating": "4.7",
+    "reviewCount": "2,847 reviews",
+    "hours": "Open 24 hours",
+    "openMaps": "Open in Maps",
+    "imageSrc": "/gallery/image-1.jpg"
+  },
+  "intro": {
+    "title": "About University Square",
+    "description": "Piața Universității is one of the most historically significant squares in Bucharest, and an important symbol of the 1989 Romanian Revolution. The square is surrounded by important buildings including the University of Bucharest and the former National Library, making it an excellent place to experience Romanian history and culture.",
+    "visitGuide": {
+      "title": "Visit Tips",
+      "items": [
+        "Recommended to visit in the evening for night lights",
+        "Square is open 24 hours, can visit anytime",
+        "Convenient public transportation access",
+        "Wear comfortable walking shoes, square is best explored on foot"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "Romanian National Heritage",
+        "Important symbol of 1989 Revolution",
+        "Historical and cultural heart of Bucharest",
+        "Neoclassical architectural complex"
+      ]
+    }
+  },
+  "basicInfo": {
+    "title": "Basic Information",
+    "officialName": "Official Name",
+    "officialNameValue": "Piața Universității (University Square)",
+    "type": "Attraction Type",
+    "typeValue": "Historical & Cultural Square, Revolution Memorial",
+    "country": "Country",
+    "countryValue": "Romania",
+    "city": "City",
+    "cityValue": "Bucharest",
+    "googleRating": "Google Rating",
+    "phone": "Phone",
+    "address": "Address",
+    "addressValue": "Bd. Nicolae Bălcescu, Bucharest, Romania"
+  },
+  "hours": {
+    "title": "Opening Hours",
+    "outdoor": "Square Area",
+    "outdoorTime": "Open 24 hours daily",
+    "shops": "Nearby Shops",
+    "daily": "Daily Open",
+    "dailyTime": "24 hours",
+    "tip": "Travel Tip",
+    "tipContent": "Square is open 24 hours, but evening light effect is best. There are many cafés and restaurants nearby for resting anytime.",
+    "note": "Opening hours of surrounding buildings (University Library, etc.) may vary"
+  },
+  "tickets": {
+    "title": "Ticket Information",
+    "outdoor": "Square Itself",
+    "outdoorPrice": "Free admission, no entrance fee",
+    "museum": "Nearby Museums",
+    "museumPrice": "Some exhibitions may require tickets",
+    "card": "City Pass",
+    "cardPrice": "Suitable for multi-attraction passes"
+  },
+  "transport": {
+    "title": "How to Get Here",
+    "metro": "Metro",
+    "metroDesc": "University Station (M1, M2 lines), 2 min walk",
+    "bus": "Bus",
+    "busDesc": "Multiple bus routes available (136, 168, 226, etc.)",
+    "tram": "Tram",
+    "tramDesc": "Routes 1, 10, etc.",
+    "walk": "Walking",
+    "walkDesc": "10-15 min walk from city center",
+    "airport": "From Airport",
+    "airportDesc": "Take metro or taxi from Bucharest Airport, about 20-30 min drive.",
+    "tips": "Travel Tips",
+    "tipsDesc": "Square is located in city center, convenient public transportation. Recommended to walk or take metro."
+  },
+  "route": {
+    "title": "Recommended Route",
+    "overview": "Recommended to visit in the evening, starting from University Square, visiting Revolution Monument, former National Library, National Theatre, Athenaeum Square in sequence. The whole walk is relaxing and easy. Standard visit takes 30 minutes to 1 hour.",
+    "stepsTitle": "Recommended Steps",
+    "steps": [
+      "Arrive at University Square Metro Station, walk to the center of the square",
+      "Visit the Revolution Monument and sculpture group, learn about 1989 Revolution history",
+      "Stroll to the former National Library building, admire the building exterior",
+      "Head to nearby Bucharest National Theatre",
+      "Walk to Athenaeum Square",
+      "Relax at nearby cafés, feel the relaxed atmosphere of Bucharest",
+      "If time permits, visit nearby museums or shopping malls",
+      "Return via the original route or continue exploring nearby attractions"
+    ],
+    "supplementsTitle": "Supplementary Advice",
+    "supplements": [
+      "Square is open 24 hours, but evening light effect is best",
+      "There are many cafés and restaurants nearby, can rest anytime",
+      "Pay attention to personal belongings, especially in crowded areas",
+      "Recommended to combine with nearby attractions (National Theatre, Athenaeum, etc.)"
+    ]
+  },
+  "photoSpots": {
+    "title": "Photo Spots",
+    "spots": [
+      {
+        "name": "Central Monument",
+        "desc": "Revolution Heroes Monument, iconic shooting location"
+      },
+      {
+        "name": "University Building Facade",
+        "desc": "Neoclassical architectural style, suitable for architectural photography"
+      },
+      {
+        "name": "Fountains and Sculptures",
+        "desc": "Best lighting effects at night, suitable for night photography"
+      },
+      {
+        "name": "Athenaeum",
+        "desc": "Romanian representative building, suitable for panoramic photography"
+      },
+      {
+        "name": "National Theatre",
+        "desc": "Perfect fusion of modern architecture and historical square"
+      }
+    ],
+    "tips": "Photography Tips",
+    "tipsContent": "Wide-angle lens recommended for architectural panoramas; evening when lights are on, night photography effect is best; square has high foot traffic, recommended to visit on weekdays to avoid peak hours."
+  },
+  "hotels": {
+    "title": "Accommodation",
+    "hotels": [
+      {
+        "name": "Boutique Hotels Near Square",
+        "desc": "Walking distance to square, convenient transportation, suitable for short stays",
+        "price": "Price varies by season"
+      },
+      {
+        "name": "Bucharest Old Town Hotels",
+        "desc": "Close to Old Town and square, many restaurants and cafés nearby",
+        "price": "Price varies by season"
+      },
+      {
+        "name": "Accommodation Near Athenaeum",
+        "desc": "Quiet area, suitable for families and business trips",
+        "price": "Price varies by season"
+      },
+      {
+        "name": "Budget Hostels",
+        "desc": "High cost-performance, suitable for budget travelers",
+        "price": "Price varies by season"
+      }
+    ],
+    "supplements": "Accommodation Tips",
+    "supplementsContent": "Bucharest has rich accommodation options, from budget hostels to five-star hotels. Advance booking is recommended, especially during tourist peak season (summer, Christmas, etc.)."
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "University Square Historical Architecture & Cultural Scenery",
+    "photos": [
+      {"src": "/gallery/image-1.jpg", "alt": "University Square Panorama"},
+      {"src": "/gallery/image-2.jpg", "alt": "Revolution Monument"},
+      {"src": "/gallery/image-3.jpg", "alt": "University Building"},
+      {"src": "/gallery/image-4.jpg", "alt": "Fountain Night View"}
+    ],
+    "captions": [
+      "University Square Panorama",
+      "Revolution Monument",
+      "University Building",
+      "Fountain Night View"
+    ],
+    "viewAll": "View All",
+    "mapsUrl": "https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Reviews from third-party platforms",
+    "moreReviews": "View More Reviews",
+    "moreReviewsUrl": "https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9",
+    "items": [
+      {"name": "Maria Popescu", "date": "April 2026", "rating": 5, "text": "One of the most historically significant squares in Bucharest. Many important moments of the 1989 Revolution happened here. The monument is impressive."},
+      {"name": "Ion Georgescu", "date": "March 2026", "rating": 4, "text": "Very central location with many attractions nearby. The lights at evening are beautiful."},
+      {"name": "Elena Marin", "date": "February 2026", "rating": 5, "text": "I felt the history and culture of Romania here. Strongly recommend for first-time visitors to Bucharest."}
+    ]
+  },
+  "mapSection": {
+    "title": "Location Guide",
+    "subtitle": "Bd. Nicolae Bălcescu, Bucharest, Romania",
+    "openMaps": "View on Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.5!2d26.1000!3d44.4360!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDI1JzE2LjEiTiAyNsKwMDYnMDAuNCJF!5e0!3m2!1sen!2sro!4v1"
+  },
+  "footer": {
+    "rights": "© 2026 University Square Guide. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Related Resources & Information",
+    "officialLinks": {
+      "cityUrl": "https://www.bucharest.ro",
+      "tourismUrl": "https://www.romaniatourism.com",
+      "universityUrl": "https://www.unibuc.ro"
+    },
+    "officialLinks.cityUrl": "Bucharest City",
+    "officialLinks.tourismUrl": "Romania Tourism",
+    "officialLinks.universityUrl": "University of Bucharest",
+    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions.",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map"
+  },
+  "recommendations": {
+    "title": "Special Recommendations",
+    "attractionsTitle": "Nearby Attractions",
+    "toursTitle": "Recommended Tours & Activities",
+    "attractions": [
+      {"name": "National Theatre", "url": "https://www.visitromania.com"},
+      {"name": "Athenaeum", "url": "https://www.visitromania.com"},
+      {"name": "Romanian National Art Museum", "url": "https://www.visitromania.com"},
+      {"name": "Old Town Walking Area", "url": "https://www.visitromania.com"}
+    ],
+    "tours": [
+      {"name": "Bucharest Old Town Walking Tour", "url": "https://www.visitromania.com"},
+      {"name": "Romanian Culture Deep Tour", "url": "https://www.visitromania.com"},
+      {"name": "Eastern European Cities Tour", "url": "https://www.visitromania.com"},
+      {"name": "Revolution History Tour", "url": "https://www.visitromania.com"}
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: May 2026",
+    "sections": [
+      {
+        "heading": "Information We Collect",
+        "content": "We only collect the minimum data necessary to provide our services. This data may include:\n\nBrowsing data (IP address, browser type, pages visited)\nCookies and similar technologies\nAny information you voluntarily provide through contact forms or emails"
+      },
+      {
+        "heading": "How We Use Your Information",
+        "content": "We use the information we collect for:\n\nImproving website content and user experience\nAnalyzing traffic and usage patterns\nResponding to inquiries\nComplying with our legal obligations"
+      },
+      {
+        "heading": "Third-Party Services",
+        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
+      },
+      {
+        "heading": "Your Rights",
+        "content": "Under the General Data Protection Regulation (GDPR) and related regulations, you have the following rights:\n\nAccess your personal data\nRequest correction or deletion\nObject to processing\nFile a complaint with a supervisory authority"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: May 2026",
+    "sections": [
+      {
+        "heading": "Access and Use",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service."
+      },
+      {
+        "heading": "Content Usage",
+        "content": "All content on this website is for reference only. We are an independent third-party travel information website and have no association with any tourist attractions, government agencies, or commercial operators."
+      },
+      {
+        "heading": "Accuracy of Information",
+        "content": "We strive to provide accurate and timely information, but cannot guarantee the completeness or accuracy of the information. Schedules, conditions, and services are subject to change without notice. Please be sure to verify important information through official channels before traveling."
+      },
+      {
+        "heading": "Intellectual Property",
+        "content": "The design and original content of this website are copyright protected. Images are from Unsplash and are used under license. Use of Google Maps data complies with Google's Terms of Service."
+      },
+      {
+        "heading": "Limitation of Liability",
+        "content": "This website is provided on an 'as is' basis without any warranties. We are not responsible for any losses caused by the use of information on this website, including but not limited to travel decisions based on content from this website."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences.",
+    "lastUpdated": "Last updated: May 2026",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "These cookies are essential for the website to function properly and cannot be disabled.",
+      "badge": "Always active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "They help us understand how visitors interact with our website by collecting anonymous usage data.",
+      "googleAnalytics": "Google Analytics",
+      "googleAnalyticsDesc": "It collects anonymous information about how visitors use our website."
+    },
+    "preferences": {
+      "title": "Preference Cookies",
+      "description": "They remember your settings, such as language and theme preferences.",
+      "userPreferences": "User Preferences",
+      "userPreferencesDesc": "Saves your language preference and website settings."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "They are used to display relevant advertisements and measure the effectiveness of advertising campaigns.",
+      "personalizedAds": "Personalized Ads",
+      "personalizedAdsDesc": "It can display relevant ads based on your interests."
+    },
+    "consentManagement": {
+      "title": "Consent Management",
+      "description": "You can change your cookie settings at any time. Please note that disabling certain cookies may affect the functionality of the website."
+    },
+    "save": "Save Preferences",
+    "saved": "Preferences saved!",
+    "declineAll": "Decline All"
+  }
+}

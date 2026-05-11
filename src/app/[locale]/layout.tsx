@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import type { Metadata } from 'next';
 
+import './globals.css';
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -14,10 +16,10 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const messages = (await import(`@/messages/${locale}.json`)).default;
+  const messages = (await import(`@/messages/university-square/${locale}.json`)).default;
   const baseUrl = 'https://universitysquare.com';
 
-  const zhUrl = `${baseUrl}/`;
+  const zhUrl = `${baseUrl}/zh`;
   const enUrl = `${baseUrl}/en`;
   const selfUrl = locale === 'zh' ? zhUrl : enUrl;
 
@@ -79,7 +81,7 @@ export default async function LocaleLayout({
           }}
         />
       </head>
-      <body className="min-h-screen">
+      <body>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
