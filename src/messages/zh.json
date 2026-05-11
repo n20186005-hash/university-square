@@ -72,7 +72,11 @@
     "outdoor": "广场本身",
     "outdoorPrice": "免费开放，无入园费用",
     "museum": "周边博物馆",
-    "museumPrice": "部分展览可能需要购票"
+    "museumPrice": "部分展览可能需要购票",
+    "museums": "周边博物馆联票",
+    "museumsDesc": "包含周边多个博物馆的参观权限",
+    "card": "布加勒斯特城市卡",
+    "cardPrice": "享受公共交通及门票折扣"
   },
   "transport": {
     "title": "交通方式",
@@ -209,12 +213,20 @@
     "officialResourcesTitle": "相关资源与资讯",
     "officialLinks": {
       "cityUrl": "https://www.bucharest.ro",
-      "tourismUrl": "https://www.romaniatourism.com",
-      "universityUrl": "https://www.unibuc.ro"
+      "tourismUrl": "https://romaniatourism.com/",
+      "universityUrl": "https://www.unibuc.ro",
+      "visitBucharest": "https://www.visitbucharest.today/",
+      "pmb": "https://www.pmb.ro/",
+      "mnir": "https://www.mnir.ro/",
+      "inp": "https://patrimoniu.ro/"
     },
     "officialLinks.cityUrl": "布加勒斯特市",
-    "officialLinks.tourismUrl": "罗马尼亚旅游",
+    "officialLinks.tourismUrl": "Romania Tourism",
     "officialLinks.universityUrl": "布加勒斯特大学",
+    "officialLinks.visitBucharest": "Visit Bucharest",
+    "officialLinks.pmb": "Primăria Municipiului București",
+    "officialLinks.mnir": "MNIR",
+    "officialLinks.inp": "INP",
     "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。",
     "gallery": "图集",
     "reviews": "评价",

@@ -60,6 +60,11 @@
     "title": "Opening Hours",
     "outdoor": "Square Area",
     "outdoorTime": "Open 24 hours daily",
+    "shops": "Nearby Shops",
+    "daily": "Open Daily",
+    "dailyTime": "24 Hours",
+    "tip": "Visit Tips",
+    "tipContent": "Square is open 24 hours, but evening light effect is best. Many cafes and restaurants nearby for resting.",
     "note": "Opening hours of surrounding buildings (University Library, etc.) may vary"
   },
   "tickets": {
@@ -67,7 +72,11 @@
     "outdoor": "Square Itself",
     "outdoorPrice": "Free admission, no entrance fee",
     "museum": "Nearby Museums",
-    "museumPrice": "Some exhibitions may require tickets"
+    "museumPrice": "Some exhibitions may require tickets",
+    "museums": "Nearby Museums Pass",
+    "museumsDesc": "Includes access to several nearby museums",
+    "card": "Bucharest City Card",
+    "cardPrice": "Enjoy public transport and ticket discounts"
   },
   "transport": {
     "title": "How to Get Here",
@@ -203,10 +212,21 @@
     "cookies": "Cookie Settings",
     "officialResourcesTitle": "Related Resources & Information",
     "officialLinks": {
-      "city": "Bucharest City",
-      "tourism": "Romania Tourism",
-      "university": "University of Bucharest"
+      "cityUrl": "https://www.bucharest.ro",
+      "tourismUrl": "https://romaniatourism.com/",
+      "universityUrl": "https://www.unibuc.ro",
+      "visitBucharest": "https://www.visitbucharest.today/",
+      "pmb": "https://www.pmb.ro/",
+      "mnir": "https://www.mnir.ro/",
+      "inp": "https://patrimoniu.ro/"
     },
+    "officialLinks.cityUrl": "Bucharest City",
+    "officialLinks.tourismUrl": "Romania Tourism",
+    "officialLinks.universityUrl": "University of Bucharest",
+    "officialLinks.visitBucharest": "Visit Bucharest",
+    "officialLinks.pmb": "Primăria Municipiului București",
+    "officialLinks.mnir": "MNIR",
+    "officialLinks.inp": "INP",
     "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions.",
     "gallery": "Gallery",
     "reviews": "Reviews",
