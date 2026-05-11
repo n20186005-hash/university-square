@@ -7,9 +7,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale;
 
-  // Load only university-square message files
+  // Load only message files
   const messages = {
-    ...(await import(`../messages/university-square/${locale}.json`)).default,
+    ...(await import(`../messages/${locale}.json`)).default,
   };
 
   return {

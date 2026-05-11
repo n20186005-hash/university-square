@@ -8,7 +8,6 @@ export const routing = defineRouting({
   },
   pathnames: {
     '/': '/',
-    '/university-square': '/university-square',
     '/privacy-policy': '/privacy-policy',
     '/terms-of-service': '/terms-of-service',
     '/cookie-settings': '/cookie-settings',

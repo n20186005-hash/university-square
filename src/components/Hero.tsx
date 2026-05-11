@@ -1,16 +1,17 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 
 export default function Hero() {
   const t = useTranslations('hero');
-  const imageSrc = t('imageSrc') || '/gallery/images (1).jpg';
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src={imageSrc}
-          alt={t('title')}
+          src="/gallery/image-1.jpg"
+          alt="University Square"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
@@ -33,7 +34,7 @@ export default function Hero() {
                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
               </svg>
               <span className="text-white text-sm font-medium">{t('rating')}</span>
-              <span className="text-white/60 text-xs">({t('reviewCount')})</span>
+              <span className="text-white/60 text-xs">({t('reviewCount')} reviews)</span>
             </div>
             <div className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
@@ -43,7 +44,7 @@ export default function Hero() {
               <span className="text-white text-sm">{t('hours')}</span>
             </div>
             <a
-              href="https://maps.app.goo.gl/G79gX2rTGNG9dMhw7"
+              href="https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2 hover:bg-white/25 transition-colors"

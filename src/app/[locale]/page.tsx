@@ -1,5 +1,19 @@
-import { redirect } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import Intro from '@/components/Intro';
+import BasicInfo from '@/components/BasicInfo';
+import HoursSection from '@/components/HoursSection';
+import TicketsSection from '@/components/TicketsSection';
+import TransportSection from '@/components/TransportSection';
+import RouteSection from '@/components/RouteSection';
+import PhotoSpotsSection from '@/components/PhotoSpotsSection';
+import HotelsSection from '@/components/HotelsSection';
+import Gallery from '@/components/Gallery';
+import Reviews from '@/components/Reviews';
+import MapEmbed from '@/components/MapEmbed';
+import Recommendations from '@/components/Recommendations';
+import Footer from '@/components/Footer';
 
 export default async function HomePage({
   params,
@@ -8,7 +22,26 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  
-  // Redirect to the university-square page
-  redirect(locale === 'zh' ? '/zh/university-square' : '/en/university-square');
+
+  return (
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <Intro />
+        <BasicInfo />
+        <HoursSection />
+        <TicketsSection />
+        <TransportSection />
+        <RouteSection />
+        <PhotoSpotsSection />
+        <HotelsSection />
+        <Gallery />
+        <Reviews />
+        <MapEmbed />
+        <Recommendations />
+      </main>
+      <Footer />
+    </>
+  );
 }

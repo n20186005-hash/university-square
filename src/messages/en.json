@@ -79,12 +79,15 @@
     "tramDesc": "Routes 1, 10, etc.",
     "walk": "Walking",
     "walkDesc": "10-15 min walk from city center",
+    "airport": "From Airport",
+    "airportDesc": "Direct metro or taxi from Bucharest Airport, approx 20-30 mins.",
     "tips": "Travel Tips",
     "tipsDesc": "Square is located in city center, convenient public transportation. Recommended to walk or take metro."
   },
   "route": {
     "title": "Recommended Route",
     "overview": "Recommended to visit in the evening, starting from University Square, visiting Revolution Monument, former National Library, National Theatre, Athenaeum Square in sequence. The whole walk is relaxing and easy. Standard visit takes 30 minutes to 1 hour.",
+    "stepsTitle": "Recommended Steps",
     "steps": [
       "Arrive at University Square Metro Station, walk to the center of the square",
       "Visit the Revolution Monument and sculpture group, learn about 1989 Revolution history",
@@ -95,6 +98,7 @@
       "If time permits, visit nearby museums or shopping malls",
       "Return via the original route or continue exploring nearby attractions"
     ],
+    "supplementsTitle": "Additional Suggestions",
     "supplements": [
       "Square is open 24 hours, but evening light effect is best",
       "There are many cafés and restaurants nearby, can rest at any time",
