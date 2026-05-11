@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "title": "大学广场 University Square｜布加勒斯特历史与文化心脏 - 最佳欧洲景点",
+    "description": "探索布加勒斯特大学广场的完整指南。了解开放时间、交通路线、周边景点、游览攻略和精彩照片。罗马尼亚1989年革命重要象征，历史文化广场。"
+  },
+  "header": {
+    "home": "首页",
+    "gallery": "图集",
+    "reviews": "评价",
+    "map": "地图",
+    "backToHome": "返回首页"
+  },
+  "hero": {
+    "title": "大学广场",
+    "subtitle": "布加勒斯特的历史与文化心脏",
+    "rating": "4.7",
+    "reviewCount": "2,847 条评价",
+    "hours": "24小时开放",
+    "openMaps": "在地图中打开",
+    "imageSrc": "/gallery/image-1.jpg"
+  },
+  "intro": {
+    "title": "关于大学广场",
+    "description": "大学广场（Piața Universității）是布加勒斯特最具历史意义的广场之一，也是罗马尼亚1989年革命的重要象征。广场周围环绕着多座重要建筑，包括布加勒斯特大学、国家图书馆旧址等，是感受罗马尼亚历史与文化的绝佳地点。",
+    "visitGuide": {
+      "title": "游览建议",
+      "items": [
+        "建议傍晚时分游览，可欣赏灯光夜景",
+        "广场全天开放，随时可参观",
+        "周边有地铁站，交通便利",
+        "穿戴舒适的步行鞋，广场以步行为主"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "广场特色",
+      "items": [
+        "罗马尼亚国家遗产",
+        "1989年革命重要象征",
+        "布加勒斯特历史文化心脏",
+        "新古典主义建筑群"
+      ]
+    }
+  },
+  "basicInfo": {
+    "title": "基本信息",
+    "officialName": "正式名称",
+    "officialNameValue": "Piața Universității（大学广场）",
+    "type": "景点类型",
+    "typeValue": "历史文化广场、革命纪念地",
+    "country": "国家",
+    "countryValue": "罗马尼亚",
+    "city": "城市",
+    "cityValue": "布加勒斯特",
+    "googleRating": "谷歌评分",
+    "phone": "电话",
+    "address": "地址",
+    "addressValue": "Bd. Nicolae Bălcescu, Bucharest, Romania"
+  },
+  "hours": {
+    "title": "开放时间",
+    "outdoor": "广场区域",
+    "outdoorTime": "全天24小时开放",
+    "shops": "周边商铺",
+    "daily": "每日开放",
+    "dailyTime": "全天24小时",
+    "tip": "游览建议",
+    "tipContent": "广场全天开放，但傍晚时分灯光效果最佳。周边有众多咖啡馆和餐厅，可随时休息。",
+    "note": "周边建筑（大学图书馆等）开放时间可能有所不同"
+  },
+  "tickets": {
+    "title": "门票信息",
+    "outdoor": "广场本身",
+    "outdoorPrice": "免费开放，无入园费用",
+    "museum": "周边博物馆",
+    "museumPrice": "部分展览可能需要购票"
+  },
+  "transport": {
+    "title": "交通方式",
+    "metro": "地铁",
+    "metroDesc": "大学站（M1、M2号线），步行约2分钟",
+    "bus": "公交",
+    "busDesc": "多条公交线路可达（136、168、226等）",
+    "tram": "有轨电车",
+    "tramDesc": "1路、10路等线路",
+    "walk": "步行",
+    "walkDesc": "从市中心步行约10-15分钟",
+    "airport": "从机场",
+    "airportDesc": "可从布加勒斯特机场乘坐地铁或出租车直达，车程约20-30分钟。",
+    "tips": "出行建议",
+    "tipsDesc": "广场位于市中心，公共交通便利，建议步行或乘坐地铁。"
+  },
+  "route": {
+    "title": "推荐路线",
+    "overview": "建议傍晚时分游览，从大学广场出发，依次参观革命纪念碑、国家图书馆旧址、国家剧院、雅典娜神庙广场，全程步行轻松休闲。常规游览时长30分钟至1小时。",
+    "stepsTitle": "推荐步骤",
+    "steps": [
+      "抵达大学广场地铁站，步行至广场中心",
+      "参观革命纪念碑和雕塑群，了解1989年革命历史",
+      "漫步至国家图书馆旧址，欣赏建筑外观",
+      "前往附近的布加勒斯特国家剧院",
+      "步行至雅典娜神庙广场",
+      "在周边咖啡馆休息，感受布加勒斯特的悠闲氛围",
+      "如有时间，可参观周边博物馆或购物中心",
+      "游览结束后在原路返回或继续探索周边景点"
+    ],
+    "supplementsTitle": "补充建议",
+    "supplements": [
+      "广场全天开放，但傍晚时分灯光效果最佳",
+      "周边有众多咖啡馆和餐厅，可随时休息",
+      "注意保管好个人财物，特别是在人流密集区域",
+      "建议与周边景点（国家剧院、雅典娜神庙等）组合游览"
+    ]
+  },
+  "photoSpots": {
+    "title": "拍照机位",
+    "spots": [
+      {
+        "name": "广场中央纪念碑",
+        "desc": "革命英雄纪念碑，标志性取景地"
+      },
+      {
+        "name": "大学建筑外立面",
+        "desc": "新古典主义建筑风格，适合建筑摄影"
+      },
+      {
+        "name": "喷泉与雕塑群",
+        "desc": "夜间灯光效果最佳，适合夜景拍摄"
+      },
+      {
+        "name": "雅典娜神庙",
+        "desc": "罗马尼亚代表性建筑，适合全景拍摄"
+      },
+      {
+        "name": "国家剧院",
+        "desc": "现代建筑与历史广场的完美融合"
+      }
+    ],
+    "tips": "拍照补充说明",
+    "tipsContent": "建议使用广角镜头拍摄建筑全景；傍晚时分灯光亮起，夜景拍摄效果最佳；广场人流量大，建议工作日错峰游览。"
+  },
+  "hotels": {
+    "title": "住宿建议",
+    "hotels": [
+      {
+        "name": "广场周边精品酒店",
+        "desc": "步行可达广场，交通便利，适合短期停留",
+        "price": "价格因季节浮动"
+      },
+      {
+        "name": "布加勒斯特老城酒店",
+        "desc": "靠近老城和广场，周边餐厅和咖啡馆众多",
+        "price": "价格因季节浮动"
+      },
+      {
+        "name": "雅典娜神庙附近住宿",
+        "desc": "安静区域，适合家庭和商务出行",
+        "price": "价格因季节浮动"
+      },
+      {
+        "name": "经济型旅馆",
+        "desc": "性价比高，适合预算有限的游客",
+        "price": "价格因季节浮动"
+      }
+    ],
+    "supplements": "住宿补充说明",
+    "supplementsContent": "布加勒斯特住宿选择丰富，从经济型旅馆到五星级酒店应有尽有。建议提前预订，特别是在旅游旺季（夏季、圣诞节等）。"
+  },
+  "gallery": {
+    "title": "精彩照片",
+    "subtitle": "大学广场历史建筑与文化风光",
+    "photos": [
+      {"src": "/gallery/image-1.jpg", "alt": "大学广场全景"},
+      {"src": "/gallery/image-2.jpg", "alt": "革命纪念碑"},
+      {"src": "/gallery/image-3.jpg", "alt": "大学建筑"},
+      {"src": "/gallery/image-4.jpg", "alt": "喷泉夜景"}
+    ],
+    "captions": [
+      "大学广场全景",
+      "革命纪念碑",
+      "大学建筑",
+      "喷泉夜景"
+    ],
+    "viewAll": "查看全部",
+    "mapsUrl": "https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9"
+  },
+  "reviews": {
+    "title": "游客评价",
+    "declaration": "以下评价来源于第三方平台",
+    "moreReviews": "查看更多评价",
+    "moreReviewsUrl": "https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9",
+    "items": [
+      {"name": "Maria Popescu", "date": "2026年4月", "rating": 5, "text": "这里是布加勒斯特最具有历史意义的广场之一。1989年革命的许多重要时刻都发生在这里，纪念碑非常震撼。"},
+      {"name": "Ion Georgescu", "date": "2026年3月", "rating": 4, "text": "位置很中心，周围有很多景点可以参观。傍晚来的时候灯光很漂亮。"},
+      {"name": "Elena Marin", "date": "2026年2月", "rating": 5, "text": "我在这里感受到了罗马尼亚的历史与文化。强烈推荐给第一次来布加勒斯特的游客。"}
+    ]
+  },
+  "mapSection": {
+    "title": "交通指南",
+    "subtitle": "Bd. Nicolae Bălcescu, Bucharest, Romania",
+    "openMaps": "在 Google Maps 查看",
+    "mapsUrl": "https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.5!2d26.1000!3d44.4360!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sen!2sro!4v1"
+  },
+  "footer": {
+    "rights": "© 2026 University Square Guide. 保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 设置",
+    "officialResourcesTitle": "相关资源与资讯",
+    "officialLinks": {
+      "cityUrl": "https://www.bucharest.ro",
+      "tourismUrl": "https://www.romaniatourism.com",
+      "universityUrl": "https://www.unibuc.ro"
+    },
+    "officialLinks.cityUrl": "布加勒斯特市",
+    "officialLinks.tourismUrl": "罗马尼亚旅游",
+    "officialLinks.universityUrl": "布加勒斯特大学",
+    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。",
+    "gallery": "图集",
+    "reviews": "评价",
+    "map": "地图"
+  },
+  "recommendations": {
+    "title": "特别推荐",
+    "attractionsTitle": "附近景点",
+    "toursTitle": "推荐行程与活动",
+    "attractions": [
+      {"name": "国家剧院", "url": "https://www.visitromania.com"},
+      {"name": "雅典娜神庙", "url": "https://www.visitromania.com"},
+      {"name": "罗马尼亚国家美术馆", "url": "https://www.visitromania.com"},
+      {"name": "老城步行区", "url": "https://www.visitromania.com"}
+    ],
+    "tours": [
+      {"name": "布加勒斯特老城徒步游", "url": "https://www.visitromania.com"},
+      {"name": "罗马尼亚文化深度游", "url": "https://www.visitromania.com"},
+      {"name": "东欧城市串联游", "url": "https://www.visitromania.com"},
+      {"name": "革命历史之旅", "url": "https://www.visitromania.com"}
+    ]
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新：2026年5月",
+    "sections": [
+      {
+        "heading": "我们收集的信息",
+        "content": "我们仅收集提供服务所必需的最低限度数据。这些数据可能包括：\n\n浏览数据（IP 地址、浏览器类型、访问页面）\nCookie 和类似技术\n您通过联系表格或电子邮件自愿提供的任何信息"
+      },
+      {
+        "heading": "我们如何使用您的信息",
+        "content": "我们使用收集到的信息用于：\n\n改善网站内容和用户体验\n分析流量和使用模式\n回应请求\n遵守我们的法律义务"
+      },
+      {
+        "heading": "第三方服务",
+        "content": "我们的网站可能会使用第三方服务，例如谷歌地图（用于嵌入式地图和位置数据）、谷歌分析（用于流量分析）和 Unsplash（用于图片）。这些服务均有各自的隐私政策。"
+      },
+      {
+        "heading": "您的权利",
+        "content": "根据《通用数据保护条例》(GDPR)及相关法规，您享有以下权利：\n\n访问您的个人数据\n要求更正或删除\n反对处理\n向监管机构提出投诉"
+      }
+    ]
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新：2026年5月",
+    "sections": [
+      {
+        "heading": "访问和使用",
+        "content": "访问和使用本网站，即表示您同意受这些服务条款的约束。"
+      },
+      {
+        "heading": "内容使用",
+        "content": "本网站所有内容仅供参考。我们是一家独立的第三方旅游信息网站，与任何旅游景点、政府机构或商业运营商均无关联。"
+      },
+      {
+        "heading": "信息的准确性",
+        "content": "我们力求提供准确及时的信息，但无法保证信息的完整性或准确性。行程安排、条件和服务如有变更，恕不另行通知。请务必在出行前通过官方渠道核实重要信息。"
+      },
+      {
+        "heading": "知识产权",
+        "content": "本网站设计和原创内容受版权保护。图片来自 Unsplash，并已获得其许可。Google 地图数据的使用符合 Google 的服务条款。"
+      },
+      {
+        "heading": "责任限制",
+        "content": "本网站按「现状」提供，不作任何担保。对于因使用本网站信息而造成的任何损失，包括但不限于基于本网站内容做出的旅行决定，我们概不负责。"
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie 设置",
+    "description": "管理您的 Cookie 偏好设置。",
+    "lastUpdated": "最后更新：2026年5月",
+    "essential": {
+      "title": "必要 Cookie",
+      "description": "这些 Cookie 对于网站正常运行至关重要，无法禁用。",
+      "badge": "始终保持活跃"
+    },
+    "analytics": {
+      "title": "分析型 Cookie",
+      "description": "它们通过收集匿名使用数据，帮助我们了解访客如何与我们的网站互动。",
+      "googleAnalytics": "Google Analytics",
+      "googleAnalyticsDesc": "它会收集访客如何使用我们网站的匿名信息。"
+    },
+    "preferences": {
+      "title": "偏好 Cookie",
+      "description": "它们会记住您的设置，例如语言和主题偏好。",
+      "userPreferences": "用户偏好",
+      "userPreferencesDesc": "保存您的语言偏好和网站设置。"
+    },
+    "marketing": {
+      "title": "营销 Cookie",
+      "description": "它们用于展示相关广告并衡量广告活动的有效性。",
+      "personalizedAds": "个性化广告",
+      "personalizedAdsDesc": "它可以根据你的兴趣为你展示相关的广告。"
+    },
+    "consentManagement": {
+      "title": "同意管理",
+      "description": "您可以随时更改您的 Cookie 设置。请注意，禁用某些 Cookie 可能会影响网站的功能。"
+    },
+    "save": "保存偏好设置",
+    "saved": "设置已保存！",
+    "declineAll": "拒绝一切"
+  }
+}
