@@ -7,7 +7,6 @@
     "siteName": "University Square",
     "home": "Home",
     "gallery": "Gallery",
-    "reviews": "Reviews",
     "map": "Map",
     "backToHome": "Back to Home"
   },
@@ -277,19 +276,18 @@
     "officialResourcesTitle": "Related Resources & Information",
     "officialLinks": {
       "tourismUrl": "https://romaniatourism.com/",
-      "adrbi": "https://www.adrbi.ro/en/",
-      "visitBucharest": "https://visitbucharest.today/",
-      "patrimoniu": "https://patrimoniu.ro/",
-      "university": "https://unibuc.ro/?lang=en"
+      "adrbi": "https://www.adrbi.ro",
+      "visitBucharest": "https://visitbucharest.today",
+      "patrimoniu": "https://patrimoniu.ro",
+      "university": "https://unibuc.ro"
     },
     "officialLinks.tourismUrl": "Romania Tourism",
     "officialLinks.adrbi": "ADRBI",
     "officialLinks.visitBucharest": "Visit Bucharest",
-    "officialLinks.patrimoniu": "Patrimoniu",
+    "officialLinks.patrimoniu": "National Heritage Institute",
     "officialLinks.university": "University of Bucharest",
     "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions.",
     "gallery": "Gallery",
-    "reviews": "Reviews",
     "map": "Map"
   },
   "recommendations": {
