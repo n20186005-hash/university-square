@@ -203,7 +203,11 @@
       {"src": "/gallery/image-1.jpg", "alt": "广场日常"},
       {"src": "/gallery/image-2.jpg", "alt": "建筑特写"},
       {"src": "/gallery/image-3.jpg", "alt": "文化活动"},
-      {"src": "/gallery/image-4.jpg", "alt": "雕塑细节"}
+      {"src": "/gallery/image-4.jpg", "alt": "雕塑细节"},
+      {"src": "/gallery/image-1.jpg", "alt": "黄昏景色"},
+      {"src": "/gallery/image-2.jpg", "alt": "历史遗迹"},
+      {"src": "/gallery/image-3.jpg", "alt": "国家剧院周边"},
+      {"src": "/gallery/image-4.jpg", "alt": "城市街景"}
     ],
     "captions": [
       "大学广场全景",
@@ -213,7 +217,11 @@
       "广场日常",
       "建筑特写",
       "文化活动",
-      "雕塑细节"
+      "雕塑细节",
+      "黄昏景色",
+      "历史遗迹",
+      "国家剧院周边",
+      "城市街景"
     ],
     "viewAll": "查看全部",
     "mapsUrl": "https://maps.app.goo.gl/Qeai4oSDDZgBZ1Ty9"

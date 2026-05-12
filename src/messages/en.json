@@ -203,7 +203,11 @@
       {"src": "/gallery/image-1.jpg", "alt": "Daily Life at the Square"},
       {"src": "/gallery/image-2.jpg", "alt": "Architectural Detail"},
       {"src": "/gallery/image-3.jpg", "alt": "Cultural Event"},
-      {"src": "/gallery/image-4.jpg", "alt": "Sculpture Close-up"}
+      {"src": "/gallery/image-4.jpg", "alt": "Sculpture Close-up"},
+      {"src": "/gallery/image-1.jpg", "alt": "Dusk Scenery"},
+      {"src": "/gallery/image-2.jpg", "alt": "Historical Ruins"},
+      {"src": "/gallery/image-3.jpg", "alt": "National Theatre Surroundings"},
+      {"src": "/gallery/image-4.jpg", "alt": "City Street View"}
     ],
     "captions": [
       "Panoramic View of the Square",
@@ -213,7 +217,11 @@
       "Daily Life at the Square",
       "Architectural Detail",
       "Cultural Event",
-      "Sculpture Close-up"
+      "Sculpture Close-up",
+      "Dusk Scenery",
+      "Historical Ruins",
+      "National Theatre Surroundings",
+      "City Street View"
     ],
     "viewAll": "View All",
     "mapsUrl": "https://maps.app.goo.gl/Qeai4oSDDZgBZ1Ty9"
