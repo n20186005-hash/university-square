@@ -200,14 +200,14 @@
       {"src": "/gallery/image-2.jpg", "alt": "革命纪念碑"},
       {"src": "/gallery/image-3.jpg", "alt": "大学建筑"},
       {"src": "/gallery/image-4.jpg", "alt": "喷泉夜景"},
-      {"src": "/gallery/image-1.jpg", "alt": "广场日常"},
-      {"src": "/gallery/image-2.jpg", "alt": "建筑特写"},
-      {"src": "/gallery/image-3.jpg", "alt": "文化活动"},
-      {"src": "/gallery/image-4.jpg", "alt": "雕塑细节"},
-      {"src": "/gallery/image-1.jpg", "alt": "黄昏景色"},
-      {"src": "/gallery/image-2.jpg", "alt": "历史遗迹"},
-      {"src": "/gallery/image-3.jpg", "alt": "国家剧院周边"},
-      {"src": "/gallery/image-4.jpg", "alt": "城市街景"}
+      {"src": "/gallery/image-5.jpg", "alt": "广场日常"},
+      {"src": "/gallery/image-6.jpg", "alt": "建筑特写"},
+      {"src": "/gallery/image-7.jpg", "alt": "文化活动"},
+      {"src": "/gallery/image-8.jpg", "alt": "雕塑细节"},
+      {"src": "/gallery/image-9.jpg", "alt": "黄昏景色"},
+      {"src": "/gallery/image-10.jpg", "alt": "历史遗迹"},
+      {"src": "/gallery/image-11.jpg", "alt": "国家剧院周边"},
+      {"src": "/gallery/image-12.jpg", "alt": "城市街景"}
     ],
     "captions": [
       "大学广场全景",
