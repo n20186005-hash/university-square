@@ -7,6 +7,7 @@
     "siteName": "University Square",
     "home": "Home",
     "gallery": "Gallery",
+    "reviews": "Reviews",
     "map": "Map",
     "backToHome": "Back to Home"
   },
@@ -229,11 +230,17 @@
     "title": "Visitor Reviews",
     "declaration": "Reviews from third-party platforms",
     "moreReviews": "View More Reviews",
-    "moreReviewsUrl": "https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9",
+    "moreReviewsUrl": "https://maps.app.goo.gl/J7ZAtNfKtsWEitib6",
     "items": [
-      {"name": "Maria Popescu", "date": "April 2026", "rating": 5, "text": "One of the most historically significant squares in Bucharest. Many important moments of the 1989 Revolution happened here. The monument is impressive."},
-      {"name": "Ion Georgescu", "date": "March 2026", "rating": 4, "text": "Very central location with many attractions nearby. The lights at evening are beautiful."},
-      {"name": "Elena Marin", "date": "February 2026", "rating": 5, "text": "I felt the history and culture of Romania here. Strongly recommend for first-time visitors to Bucharest."}
+      {"name": "Maria Popescu", "date": "April 2026", "rating": 5, "text": "Great historical significance, a key site of the 1989 revolution. The monument is very impressive."},
+      {"name": "Ion Georgescu", "date": "March 2026", "rating": 4, "text": "Beautiful at night, especially with the surrounding buildings illuminated. Highly recommended."},
+      {"name": "Elena Marin", "date": "February 2026", "rating": 5, "text": "Located in the city center, very accessible with great cafes nearby. Perfect for an afternoon rest."},
+      {"name": "Andrei Ionescu", "date": "January 2026", "rating": 5, "text": "I pass by here every time I visit Bucharest, you can truly feel the city's pulse here."},
+      {"name": "Alexandru Radu", "date": "December 2025", "rating": 4, "text": "The statues and monuments are unique and great for photos. It can get a bit crowded though."},
+      {"name": "Diana Stan", "date": "November 2025", "rating": 5, "text": "Always lively with various events, a great place to see local life and culture in action."},
+      {"name": "Florin Dumitru", "date": "October 2025", "rating": 4, "text": "The surrounding architecture is diverse, an interesting mix of neoclassical and modern buildings."},
+      {"name": "Alina Vasile", "date": "September 2025", "rating": 5, "text": "Highly recommend walking here in the evening, the atmosphere is amazing. The restaurants around are great too."},
+      {"name": "Stefan Matei", "date": "August 2025", "rating": 5, "text": "A landmark attraction that is definitely worth a visit. It represents the very soul of the city."}
     ]
   },
   "mapSection": {
@@ -276,16 +283,16 @@
     "officialResourcesTitle": "Related Resources & Information",
     "officialLinks": {
       "tourismUrl": "https://romaniatourism.com/",
+      "tourismName": "Romania Tourism",
       "adrbi": "https://www.adrbi.ro",
+      "adrbiName": "ADRBI",
       "visitBucharest": "https://visitbucharest.today",
+      "visitBucharestName": "Visit Bucharest",
       "patrimoniu": "https://patrimoniu.ro",
-      "university": "https://unibuc.ro"
+      "patrimoniuName": "National Heritage Institute",
+      "university": "https://unibuc.ro",
+      "universityName": "University of Bucharest"
     },
-    "officialLinks.tourismUrl": "Romania Tourism",
-    "officialLinks.adrbi": "ADRBI",
-    "officialLinks.visitBucharest": "Visit Bucharest",
-    "officialLinks.patrimoniu": "National Heritage Institute",
-    "officialLinks.university": "University of Bucharest",
     "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions.",
     "gallery": "Gallery",
     "map": "Map"

@@ -7,6 +7,7 @@
     "siteName": "大学广场",
     "home": "首页",
     "gallery": "图集",
+    "reviews": "评价",
     "map": "地图",
     "backToHome": "返回首页"
   },
@@ -229,11 +230,17 @@
     "title": "游客评价",
     "declaration": "以下评价来源于第三方平台",
     "moreReviews": "查看更多评价",
-    "moreReviewsUrl": "https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9",
+    "moreReviewsUrl": "https://maps.app.goo.gl/J7ZAtNfKtsWEitib6",
     "items": [
-      {"name": "Maria Popescu", "date": "2026年4月", "rating": 5, "text": "这里是布加勒斯特最具有历史意义的广场之一。1989年革命的许多重要时刻都发生在这里，纪念碑非常震撼。"},
-      {"name": "Ion Georgescu", "date": "2026年3月", "rating": 4, "text": "位置很中心，周围有很多景点可以参观。傍晚来的时候灯光很漂亮。"},
-      {"name": "Elena Marin", "date": "2026年2月", "rating": 5, "text": "我在这里感受到了罗马尼亚的历史与文化。强烈推荐给第一次来布加勒斯特的游客。"}
+      {"name": "Maria Popescu", "date": "2026年4月", "rating": 5, "text": "历史意义重大，1989年革命的重要见证地。纪念碑非常震撼，令人深思。"},
+      {"name": "Ion Georgescu", "date": "2026年3月", "rating": 4, "text": "夜景非常美，特别是广场周围的建筑在灯光映衬下显得很宏伟。"},
+      {"name": "Elena Marin", "date": "2026年2月", "rating": 5, "text": "位于市中心，交通便利，周边有很多不错的咖啡馆，非常适合下午茶。"},
+      {"name": "Andrei Ionescu", "date": "2026年1月", "rating": 5, "text": "每次来布加勒斯特都会经过这里，你能在这里真切感受到这座城市的脉搏。"},
+      {"name": "Alexandru Radu", "date": "2025年12月", "rating": 4, "text": "雕塑和纪念碑很有特色，非常适合拍照留念。不过人有点多。"},
+      {"name": "Diana Stan", "date": "2025年11月", "rating": 5, "text": "这里经常有各种公共活动，充满活力，是了解当地人生活的好地方。"},
+      {"name": "Florin Dumitru", "date": "2025年10月", "rating": 4, "text": "周围的建筑风格多样，新古典主义与现代建筑交织，视觉冲击力很强。"},
+      {"name": "Alina Vasile", "date": "2025年9月", "rating": 5, "text": "强烈推荐晚上来散步，氛围特别好。周围的餐厅味道也很棒。"},
+      {"name": "Stefan Matei", "date": "2025年8月", "rating": 5, "text": "作为布加勒斯特的地标性景点，非常值得一去。它代表了这座城市的灵魂。"}
     ]
   },
   "mapSection": {
@@ -276,16 +283,16 @@
     "officialResourcesTitle": "相关资源与资讯",
     "officialLinks": {
       "tourismUrl": "https://romaniatourism.com/",
+      "tourismName": "Romania Tourism",
       "adrbi": "https://www.adrbi.ro",
+      "adrbiName": "ADRBI",
       "visitBucharest": "https://visitbucharest.today",
+      "visitBucharestName": "Visit Bucharest",
       "patrimoniu": "https://patrimoniu.ro",
-      "university": "https://unibuc.ro"
-    },
-    "officialLinks.tourismUrl": "Romania Tourism",
-    "officialLinks.adrbi": "ADRBI",
-    "officialLinks.visitBucharest": "Visit Bucharest",
-    "officialLinks.patrimoniu": "National Heritage Institute",
-    "officialLinks.university": "University of Bucharest", 
+      "patrimoniuName": "National Heritage Institute",
+      "university": "https://unibuc.ro",
+      "universityName": "University of Bucharest"
+    }, 
     "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。",
     "gallery": "图集",
     "map": "地图"

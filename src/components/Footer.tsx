@@ -22,19 +22,19 @@ export default function Footer() {
             </p>
             <div className="flex flex-col gap-2">
               <a href={t('officialLinks.tourismUrl')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.tourismUrl')}
+                {t('officialLinks.tourismName')}
               </a>
               <a href={t('officialLinks.adrbi')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.adrbi')}
+                {t('officialLinks.adrbiName')}
               </a>
               <a href={t('officialLinks.visitBucharest')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.visitBucharest')}
+                {t('officialLinks.visitBucharestName')}
               </a>
               <a href={t('officialLinks.patrimoniu')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.patrimoniu')}
+                {t('officialLinks.patrimoniuName')}
               </a>
               <a href={t('officialLinks.university')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.university')}
+                {t('officialLinks.universityName')}
               </a>
             </div>
           </div>
