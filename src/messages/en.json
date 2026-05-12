@@ -13,11 +13,12 @@
   },
   "hero": {
     "title": "University Square",
-    "subtitle": "The Historical and Cultural Heart of Bucharest",
-    "rating": "4.7",
-    "reviewCount": "2,847 reviews",
-    "hours": "Open 24 hours",
+    "subtitle": "The Historical & Cultural Heart of Bucharest",
+    "rating": "4.5",
+    "reviewCount": "8,500 Reviews",
+    "hours": "Open 24 Hours",
     "openMaps": "Open in Maps",
+    "mapsUrl": "https://maps.app.goo.gl/Qeai4oSDDZgBZ1Ty9",
     "imageSrc": "/gallery/image-1.jpg"
   },
   "intro": {
@@ -61,6 +62,13 @@
     "title": "Opening Hours",
     "outdoor": "Square Area",
     "outdoorTime": "Open 24 hours daily",
+    "lighthouse": "Nearby Buildings",
+    "summer": "Summer Hours",
+    "summerTime": "Subject to event schedules",
+    "winter": "Winter Hours",
+    "winterTime": "Varies by building",
+    "warning": "Important Notice",
+    "warningTime": "Some areas may be temporarily closed for events",
     "shops": "Nearby Shops",
     "daily": "Open Daily",
     "dailyTime": "24 Hours",
@@ -72,6 +80,13 @@
     "title": "Ticket Information",
     "outdoor": "Square Itself",
     "outdoorPrice": "Free admission, no entrance fee",
+    "lighthouse": "Featured Attractions",
+    "adults": "Adults",
+    "adultsPrice": "Varies by attraction",
+    "students": "Students",
+    "studentsPrice": "Discount with valid ID",
+    "children": "Children",
+    "childrenPrice": "Usually free or half price",
     "museum": "Nearby Museums",
     "museumPrice": "Some exhibitions may require tickets",
     "museums": "Nearby Museums Pass",
@@ -80,19 +95,25 @@
     "cardPrice": "Enjoy public transport and ticket discounts"
   },
   "transport": {
-    "title": "How to Get Here",
+    "title": "Transportation",
     "metro": "Metro",
-    "metroDesc": "University Station (M1, M2 lines), 2 min walk",
+    "metroDesc": "Universitate Station (M2 Line), about 2 mins walk",
     "bus": "Bus",
-    "busDesc": "Multiple bus routes available (136, 168, 226, etc.)",
+    "busDesc": "Multiple bus lines available (136, 168, 226, etc.)",
     "tram": "Tram",
-    "tramDesc": "Routes 1, 10, etc.",
-    "walk": "Walking",
-    "walkDesc": "10-15 min walk from city center",
+    "tramDesc": "Lines 1, 10, etc.",
+    "walk": "Walk",
+    "walkDesc": "About 10-15 mins walk from the city center",
     "airport": "From Airport",
-    "airportDesc": "Direct metro or taxi from Bucharest Airport, approx 20-30 mins.",
+    "airportDesc": "Direct metro or taxi from Bucharest Airport, approx. 20-30 mins.",
+    "selfDrive": "Self Drive",
+    "selfDriveDesc": "Paid parking available nearby, but city center spots are limited",
+    "intercity": "Intercity Transport",
+    "intercityDesc": "About 3km from North Railway Station, accessible by metro",
+    "cycling": "Cycling",
+    "cyclingDesc": "Public bicycle parking spots are available around the square",
     "tips": "Travel Tips",
-    "tipsDesc": "Square is located in city center, convenient public transportation. Recommended to walk or take metro."
+    "tipsDesc": "The square is located in the city center with convenient public transport. Walking or taking the metro is recommended."
   },
   "route": {
     "title": "Recommended Route",
@@ -110,10 +131,11 @@
     ],
     "supplementsTitle": "Additional Suggestions",
     "supplements": [
-      "Square is open 24 hours, but evening light effect is best",
-      "There are many cafés and restaurants nearby, can rest at any time",
-      "Pay attention to personal belongings, especially in crowded areas",
-      "Recommended to combine with nearby attractions (National Theatre, Athenaeum, etc.)"
+      "Square is open all day, evening lights are highly recommended.",
+      "Many cafes and restaurants around for resting.",
+      "Keep personal belongings safe in crowded areas.",
+      "Combine visit with nearby attractions (National Theatre, Athenaeum, etc.)",
+      "Some areas might be temporarily closed during major public events. Check ahead."
     ]
   },
   "photoSpots": {
@@ -171,22 +193,30 @@
     "supplementsContent": "Bucharest has rich accommodation options, from budget hostels to five-star hotels. Advance booking is recommended, especially during tourist peak season (summer, Christmas, etc.)."
   },
   "gallery": {
-    "title": "Photo Gallery",
-    "subtitle": "University Square Historical Architecture & Cultural Scenery",
+    "title": "Gallery",
+    "subtitle": "Historical Buildings and Cultural Scenery of University Square",
     "photos": [
-      {"src": "/gallery/image-1.jpg", "alt": "University Square Panorama"},
+      {"src": "/gallery/image-1.jpg", "alt": "Panoramic View of the Square"},
       {"src": "/gallery/image-2.jpg", "alt": "Revolution Monument"},
       {"src": "/gallery/image-3.jpg", "alt": "University Building"},
-      {"src": "/gallery/image-4.jpg", "alt": "Fountain Night View"}
+      {"src": "/gallery/image-4.jpg", "alt": "Fountain at Night"},
+      {"src": "/gallery/image-1.jpg", "alt": "Daily Life at the Square"},
+      {"src": "/gallery/image-2.jpg", "alt": "Architectural Detail"},
+      {"src": "/gallery/image-3.jpg", "alt": "Cultural Event"},
+      {"src": "/gallery/image-4.jpg", "alt": "Sculpture Close-up"}
     ],
     "captions": [
-      "University Square Panorama",
+      "Panoramic View of the Square",
       "Revolution Monument",
       "University Building",
-      "Fountain Night View"
+      "Fountain at Night",
+      "Daily Life at the Square",
+      "Architectural Detail",
+      "Cultural Event",
+      "Sculpture Close-up"
     ],
     "viewAll": "View All",
-    "mapsUrl": "https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9"
+    "mapsUrl": "https://maps.app.goo.gl/Qeai4oSDDZgBZ1Ty9"
   },
   "reviews": {
     "title": "Visitor Reviews",
@@ -238,21 +268,17 @@
     "cookies": "Cookie Settings",
     "officialResourcesTitle": "Related Resources & Information",
     "officialLinks": {
-      "cityUrl": "https://www.bucharest.ro/",
       "tourismUrl": "https://romaniatourism.com/",
-      "universityUrl": "https://www.unibuc.ro/",
-      "visitBucharest": "https://www.visitbucharest.today/",
-      "pmb": "https://www.pmb.ro/",
-      "mnir": "https://www.mnir.ro/",
-      "inp": "https://patrimoniu.ro/"
+      "adrbi": "https://www.adrbi.ro/en/",
+      "visitBucharest": "https://visitbucharest.today/",
+      "patrimoniu": "https://patrimoniu.ro/",
+      "university": "https://unibuc.ro/?lang=en"
     },
-    "officialLinks.cityUrl": "Bucharest City",
     "officialLinks.tourismUrl": "Romania Tourism",
-    "officialLinks.universityUrl": "University of Bucharest",
+    "officialLinks.adrbi": "ADRBI",
     "officialLinks.visitBucharest": "Visit Bucharest",
-    "officialLinks.pmb": "Primăria Municipiului București",
-    "officialLinks.mnir": "MNIR",
-    "officialLinks.inp": "INP",
+    "officialLinks.patrimoniu": "Patrimoniu",
+    "officialLinks.university": "University of Bucharest",
     "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions.",
     "gallery": "Gallery",
     "reviews": "Reviews",

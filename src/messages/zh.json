@@ -14,10 +14,11 @@
   "hero": {
     "title": "大学广场",
     "subtitle": "布加勒斯特的历史与文化心脏",
-    "rating": "4.7",
-    "reviewCount": "2,847 条评价",
+    "rating": "4.5",
+    "reviewCount": "8,500 条评价",
     "hours": "24小时开放",
     "openMaps": "在地图中打开",
+    "mapsUrl": "https://maps.app.goo.gl/Qeai4oSDDZgBZ1Ty9",
     "imageSrc": "/gallery/image-1.jpg"
   },
   "intro": {
@@ -61,6 +62,13 @@
     "title": "开放时间",
     "outdoor": "广场区域",
     "outdoorTime": "全天24小时开放",
+    "lighthouse": "周边建筑",
+    "summer": "夏季开放",
+    "summerTime": "根据活动安排",
+    "winter": "冬季开放",
+    "winterTime": "视具体建筑而定",
+    "warning": "注意事项",
+    "warningTime": "部分区域可能因活动暂时关闭",
     "shops": "周边商铺",
     "daily": "每日开放",
     "dailyTime": "全天24小时",
@@ -72,6 +80,13 @@
     "title": "门票信息",
     "outdoor": "广场本身",
     "outdoorPrice": "免费开放，无入园费用",
+    "lighthouse": "特色景点",
+    "adults": "成人票",
+    "adultsPrice": "视具体景点而定",
+    "students": "学生票",
+    "studentsPrice": "凭有效证件享受折扣",
+    "children": "儿童票",
+    "childrenPrice": "通常免费或半价",
     "museum": "周边博物馆",
     "museumPrice": "部分展览可能需要购票",
     "museums": "周边博物馆联票",
@@ -91,6 +106,12 @@
     "walkDesc": "从市中心步行约10-15分钟",
     "airport": "从机场",
     "airportDesc": "可从布加勒斯特机场乘坐地铁或出租车直达，车程约20-30分钟。",
+    "selfDrive": "自驾",
+    "selfDriveDesc": "周边设有收费停车场，但市中心车位紧张",
+    "intercity": "城际交通",
+    "intercityDesc": "距离火车北站约3公里，地铁直达",
+    "cycling": "骑行",
+    "cyclingDesc": "广场周边设有公共自行车停放点",
     "tips": "出行建议",
     "tipsDesc": "广场位于市中心，公共交通便利，建议步行或乘坐地铁。"
   },
@@ -113,7 +134,8 @@
       "广场全天开放，但傍晚时分灯光效果最佳",
       "周边有众多咖啡馆和餐厅，可随时休息",
       "注意保管好个人财物，特别是在人流密集区域",
-      "建议与周边景点（国家剧院、雅典娜神庙等）组合游览"
+      "建议与周边景点（国家剧院、雅典娜神庙等）组合游览",
+      "如遇大型公共活动，部分区域可能会临时封闭，请提前查询"
     ]
   },
   "photoSpots": {
@@ -177,16 +199,24 @@
       {"src": "/gallery/image-1.jpg", "alt": "大学广场全景"},
       {"src": "/gallery/image-2.jpg", "alt": "革命纪念碑"},
       {"src": "/gallery/image-3.jpg", "alt": "大学建筑"},
-      {"src": "/gallery/image-4.jpg", "alt": "喷泉夜景"}
+      {"src": "/gallery/image-4.jpg", "alt": "喷泉夜景"},
+      {"src": "/gallery/image-1.jpg", "alt": "广场日常"},
+      {"src": "/gallery/image-2.jpg", "alt": "建筑特写"},
+      {"src": "/gallery/image-3.jpg", "alt": "文化活动"},
+      {"src": "/gallery/image-4.jpg", "alt": "雕塑细节"}
     ],
     "captions": [
       "大学广场全景",
       "革命纪念碑",
       "大学建筑",
-      "喷泉夜景"
+      "喷泉夜景",
+      "广场日常",
+      "建筑特写",
+      "文化活动",
+      "雕塑细节"
     ],
     "viewAll": "查看全部",
-    "mapsUrl": "https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9"
+    "mapsUrl": "https://maps.app.goo.gl/Qeai4oSDDZgBZ1Ty9"
   },
   "reviews": {
     "title": "游客评价",
@@ -238,21 +268,17 @@
     "cookies": "Cookie 设置",
     "officialResourcesTitle": "相关资源与资讯",
     "officialLinks": {
-      "cityUrl": "https://www.bucharest.ro",
       "tourismUrl": "https://romaniatourism.com/",
-      "universityUrl": "https://www.unibuc.ro",
-      "visitBucharest": "https://www.visitbucharest.today/",
-      "pmb": "https://www.pmb.ro/",
-      "mnir": "https://www.mnir.ro/",
-      "inp": "https://patrimoniu.ro/"
+      "adrbi": "https://www.adrbi.ro/en/",
+      "visitBucharest": "https://visitbucharest.today/",
+      "patrimoniu": "https://patrimoniu.ro/",
+      "university": "https://unibuc.ro/?lang=en"
     },
-    "officialLinks.cityUrl": "布加勒斯特市",
     "officialLinks.tourismUrl": "Romania Tourism",
-    "officialLinks.universityUrl": "布加勒斯特大学",
+    "officialLinks.adrbi": "ADRBI",
     "officialLinks.visitBucharest": "Visit Bucharest",
-    "officialLinks.pmb": "Primăria Municipiului București",
-    "officialLinks.mnir": "MNIR",
-    "officialLinks.inp": "INP", 
+    "officialLinks.patrimoniu": "Patrimoniu",
+    "officialLinks.university": "University of Bucharest", 
     "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。",
     "gallery": "图集",
     "reviews": "评价",

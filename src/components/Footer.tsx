@@ -22,14 +22,20 @@ export default function Footer() {
               {t('officialResourcesTitle')}
             </p>
             <div className="flex flex-col gap-2">
-              <a href={t('officialLinks.councilUrl') || 'https://www.poland.travel'} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.council')}
+              <a href={t('officialLinks.tourismUrl')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.tourismUrl')}
               </a>
-              <a href={t('officialLinks.tourismUrl') || 'https://www.krakow.pl'} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.tourism')}
+              <a href={t('officialLinks.adrbi')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.adrbi')}
               </a>
-              <a href={t('officialLinks.englandUrl') || 'https://www.poland.travel'} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.england')}
+              <a href={t('officialLinks.visitBucharest')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.visitBucharest')}
+              </a>
+              <a href={t('officialLinks.patrimoniu')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.patrimoniu')}
+              </a>
+              <a href={t('officialLinks.university')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.university')}
               </a>
             </div>
           </div>
