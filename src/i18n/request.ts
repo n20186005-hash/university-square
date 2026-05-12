@@ -7,13 +7,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale;
 
-  // Load only message files
-  const messages = {
-    ...(await import(`../messages/${locale}.json`)).default,
-  };
-
   return {
     locale,
-    messages,
+    messages: (await import(`../messages/${locale}.json`)).default,
   };
 });

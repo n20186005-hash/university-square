@@ -4,6 +4,7 @@
     "description": "Complete guide to University Square in Bucharest. Learn about opening hours, transportation, nearby attractions, tour tips and stunning photos. Key symbol of 1989 Revolution, historical and cultural square."
   },
   "header": {
+    "siteName": "University Square",
     "home": "Home",
     "gallery": "Gallery",
     "reviews": "Reviews",
@@ -205,16 +206,41 @@
     "mapsUrl": "https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9",
     "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.5!2d26.1000!3d44.4360!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDI1JzE2LjEiTiAyNsKwMDYnMDAuNCJF!5e0!3m2!1sen!2sro!4v1"
   },
+  "officialManagement": {
+    "title": "Official Management Information",
+    "text": "The administration and maintenance of University Square fall under the jurisdiction of the Bucharest City Hall (Primăria Municipiului București). For official events, filming permits, or any administrative inquiries, please contact the local authorities directly."
+  },
+  "knowledge": {
+    "title": "Historical & Cultural Context",
+    "sections": [
+      {
+        "id": "1",
+        "title": "1989 Romanian Revolution",
+        "content": "University Square was one of the central locations during the 1989 Romanian Revolution. It was here that students and citizens gathered to protest against the communist regime, making it a powerful symbol of freedom and democracy for the Romanian people."
+      },
+      {
+        "id": "2",
+        "title": "Architectural Significance",
+        "content": "The square is surrounded by architectural landmarks, including the main building of the University of Bucharest, the National Theatre, and the InterContinental Hotel. The juxtaposition of neoclassical and modern architecture reflects the city's complex history."
+      },
+      {
+        "id": "3",
+        "title": "Cultural Hub",
+        "content": "Today, University Square remains a vibrant cultural hub. It frequently hosts open-air concerts, seasonal markets, and public gatherings. The nearby streets of the Old Town offer a glimpse into the bustling social life of Bucharest."
+      }
+    ]
+  },
   "footer": {
+    "siteName": "University Square",
     "rights": "© 2026 University Square Guide. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
     "officialResourcesTitle": "Related Resources & Information",
     "officialLinks": {
-      "cityUrl": "https://www.bucharest.ro",
+      "cityUrl": "https://www.bucharest.ro/",
       "tourismUrl": "https://romaniatourism.com/",
-      "universityUrl": "https://www.unibuc.ro",
+      "universityUrl": "https://www.unibuc.ro/",
       "visitBucharest": "https://www.visitbucharest.today/",
       "pmb": "https://www.pmb.ro/",
       "mnir": "https://www.mnir.ro/",

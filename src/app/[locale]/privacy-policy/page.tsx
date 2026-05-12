@@ -8,18 +8,23 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://rubjergknude.com';
-  const zhUrl = `${baseUrl}/privacy-policy`;
+  const baseUrl = 'https://greatyarmouthbeach.com';
+  const localePrefix = locale === 'it' ? '' : locale === 'en' ? '/en' : locale === 'fr' ? '/fr' : '/zh-Hant';
+  const itUrl = `${baseUrl}/privacy-policy`;
   const enUrl = `${baseUrl}/en/privacy-policy`;
-  const selfUrl = locale === 'zh' ? zhUrl : enUrl;
+  const frUrl = `${baseUrl}/fr/privacy-policy`;
+  const zhUrl = `${baseUrl}/zh-Hant/privacy-policy`;
+  const selfUrl = locale === 'it' ? itUrl : locale === 'en' ? enUrl : locale === 'fr' ? frUrl : zhUrl;
 
   return {
     alternates: {
       canonical: selfUrl,
       languages: {
-        'zh': zhUrl,
+        'it': itUrl,
         'en': enUrl,
-        'x-default': zhUrl,
+        'fr': frUrl,
+        'zh-Hant': zhUrl,
+        'x-default': itUrl,
       },
     },
   };
@@ -30,7 +35,7 @@ function PrivacyContent() {
   const ht = useTranslations('header');
   const locale = useLocale();
   const messages = useMessages() as any;
-  const homeHref = locale === 'zh' ? '/' : `/${locale}`;
+  const homeHref = locale === 'it' ? '/' : `/${locale}`;
   const sections = (messages?.privacy?.sections || []) as Array<{ heading: string; content: string }>;
 
   return (

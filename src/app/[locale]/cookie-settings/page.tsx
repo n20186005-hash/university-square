@@ -7,17 +7,21 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const baseUrl = 'https://rubjergknude.com';
-  const zhUrl = `${baseUrl}/cookie-settings`;
+  const baseUrl = 'https://greatyarmouthbeach.com';
+  const itUrl = `${baseUrl}/cookie-settings`;
   const enUrl = `${baseUrl}/en/cookie-settings`;
+  const frUrl = `${baseUrl}/fr/cookie-settings`;
+  const zhUrl = `${baseUrl}/zh-Hant/cookie-settings`;
 
   return {
     alternates: {
-      canonical: zhUrl,
+      canonical: itUrl,
       languages: {
-        'zh': zhUrl,
+        'it': itUrl,
         'en': enUrl,
-        'x-default': zhUrl,
+        'fr': frUrl,
+        'zh-Hant': zhUrl,
+        'x-default': itUrl,
       },
     },
   };

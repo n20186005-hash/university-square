@@ -1,13 +1,13 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/routing';
 import LanguageToggle from './LanguageToggle';
 import ThemeToggle from './ThemeToggle';
 import { useState, useEffect } from 'react';
 
 export default function Header() {
   const t = useTranslations('header');
+  const siteName = t('siteName') || 'Rubjerg Knude';
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -26,20 +26,20 @@ export default function Header() {
       }}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="font-display text-lg font-semibold tracking-tight" style={{ color: scrolled ? 'var(--text-primary)' : '#fff' }}>
-          University Square
-        </Link>
+        <a href="/" className="font-display text-lg font-semibold tracking-tight" style={{ color: scrolled ? 'var(--text-primary)' : '#fff' }}>
+          {siteName}
+        </a>
 
         <nav className="hidden md:flex items-center gap-6">
           {(['gallery', 'reviews', 'map'] as const).map((section) => (
-            <Link
+            <a
               key={section}
-              href={`/#${section}` as any}
+              href={`/#${section}`}
               className="text-sm font-medium transition-colors"
               style={{ color: scrolled ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
             >
               {t(section)}
-            </Link>
+            </a>
           ))}
         </nav>
 

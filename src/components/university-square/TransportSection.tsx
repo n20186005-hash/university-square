@@ -56,38 +56,41 @@ export default function TransportSection() {
 
   return (
     <section className="section-padding">
-      <div className="container-max">
-        <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-6 text-text-primary">
+      <div className="max-w-4xl mx-auto">
+        <h2
+          className="font-display text-3xl sm:text-4xl font-semibold mb-6"
+          style={{ color: 'var(--text-primary)' }}
+        >
           {t('title')}
         </h2>
-        <div className="w-12 h-0.5 mb-8 bg-accent" />
+        <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
         <div className="space-y-6">
           {transportOptions.map((option) => (
             <div key={option.key} className="flex gap-4">
-              <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 bg-bg-tertiary text-accent">
+              <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ background: 'var(--bg-tertiary)', color: 'var(--accent)' }}>
                 {option.icon}
               </div>
               <div className="flex-1">
-                <h3 className="font-medium mb-1 text-text-primary">
+                <h3 className="font-medium mb-1" style={{ color: 'var(--text-primary)' }}>
                   {t(`${option.key}` as any)}
                 </h3>
-                <p className="text-sm text-text-secondary">
+                <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
                   {t(`${option.key}Desc` as any)}
                 </p>
               </div>
             </div>
           ))}
 
-          <div className="p-4 rounded-lg border bg-bg-tertiary border-border">
+          <div className="p-4 rounded-lg border" style={{ background: 'var(--bg-tertiary)', borderColor: 'var(--border-color)' }}>
             <div className="flex items-start gap-3">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="flex-shrink-0 mt-0.5 text-accent">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" className="flex-shrink-0 mt-0.5">
                 <path d="M9 11l3 3L22 4"/>
                 <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
               </svg>
               <div>
-                <h4 className="font-medium mb-1 text-text-primary">{t('tips')}</h4>
-                <p className="text-text-secondary">{t('tipsDesc')}</p>
+                <h4 className="font-medium mb-1" style={{ color: 'var(--text-primary)' }}>{t('tips')}</h4>
+                <p style={{ color: 'var(--text-secondary)' }}>{t('tipsDesc')}</p>
               </div>
             </div>
           </div>

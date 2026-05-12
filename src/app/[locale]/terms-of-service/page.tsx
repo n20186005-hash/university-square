@@ -8,18 +8,22 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://rubjergknude.com';
-  const zhUrl = `${baseUrl}/terms-of-service`;
+  const baseUrl = 'https://greatyarmouthbeach.com';
+  const itUrl = `${baseUrl}/terms-of-service`;
   const enUrl = `${baseUrl}/en/terms-of-service`;
-  const selfUrl = locale === 'zh' ? zhUrl : enUrl;
+  const frUrl = `${baseUrl}/fr/terms-of-service`;
+  const zhUrl = `${baseUrl}/zh-Hant/terms-of-service`;
+  const selfUrl = locale === 'it' ? itUrl : locale === 'en' ? enUrl : locale === 'fr' ? frUrl : zhUrl;
 
   return {
     alternates: {
       canonical: selfUrl,
       languages: {
-        'zh': zhUrl,
+        'it': itUrl,
         'en': enUrl,
-        'x-default': zhUrl,
+        'fr': frUrl,
+        'zh-Hant': zhUrl,
+        'x-default': itUrl,
       },
     },
   };
@@ -30,7 +34,7 @@ function TermsContent() {
   const ht = useTranslations('header');
   const locale = useLocale();
   const messages = useMessages() as any;
-  const homeHref = locale === 'zh' ? '/' : `/${locale}`;
+  const homeHref = locale === 'it' ? '/' : `/${locale}`;
   const sections = (messages?.terms?.sections || []) as Array<{ heading: string; content: string }>;
 
   return (

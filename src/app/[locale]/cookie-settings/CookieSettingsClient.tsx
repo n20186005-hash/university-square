@@ -53,10 +53,9 @@ export default function CookieSettingsClient() {
   const t = useTranslations('cookieSettings');
   const ht = useTranslations('header');
   const locale = useLocale();
-  const homeHref = locale === 'zh' ? '/' : `/${locale}`;
+  const homeHref = locale === 'it' ? '/' : `/${locale}`;
 
   const [analytics, setAnalytics] = useState(false);
-  const [preferences, setPreferences] = useState(true);
   const [marketing, setMarketing] = useState(false);
   const [saved, setSaved] = useState(false);
 
@@ -64,22 +63,12 @@ export default function CookieSettingsClient() {
     try {
       const prefs = JSON.parse(localStorage.getItem('cookiePrefs') || '{}');
       if (prefs.analytics) setAnalytics(true);
-      if (prefs.preferences !== false) setPreferences(true);
       if (prefs.marketing) setMarketing(true);
     } catch {}
   }, []);
 
   function handleSave() {
-    localStorage.setItem('cookiePrefs', JSON.stringify({ analytics, preferences, marketing }));
-    setSaved(true);
-    setTimeout(() => setSaved(false), 2000);
-  }
-
-  function handleDeclineAll() {
-    setAnalytics(false);
-    setPreferences(false);
-    setMarketing(false);
-    localStorage.setItem('cookiePrefs', JSON.stringify({ analytics: false, preferences: false, marketing: false }));
+    localStorage.setItem('cookiePrefs', JSON.stringify({ analytics, marketing }));
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }
@@ -120,87 +109,21 @@ export default function CookieSettingsClient() {
             enabled={analytics}
             onToggle={() => setAnalytics(!analytics)}
           />
-          {t('analytics.googleAnalytics') && (
-            <div className="ml-4 p-4 rounded-lg" style={{ background: 'var(--bg-secondary)' }}>
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>{t('analytics.googleAnalytics')}</p>
-                  <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>{t('analytics.googleAnalyticsDesc')}</p>
-                </div>
-                <button
-                  onClick={() => setAnalytics(!analytics)}
-                  className={`cookie-toggle flex-shrink-0 ${analytics ? 'active' : ''}`}
-                  aria-label="Toggle Google Analytics"
-                />
-              </div>
-            </div>
-          )}
-          <CookieToggle
-            label={t('preferences.title')}
-            description={t('preferences.description')}
-            enabled={preferences}
-            onToggle={() => setPreferences(!preferences)}
-          />
-          {t('preferences.userPreferences') && (
-            <div className="ml-4 p-4 rounded-lg" style={{ background: 'var(--bg-secondary)' }}>
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>{t('preferences.userPreferences')}</p>
-                  <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>{t('preferences.userPreferencesDesc')}</p>
-                </div>
-                <button
-                  onClick={() => setPreferences(!preferences)}
-                  className={`cookie-toggle flex-shrink-0 ${preferences ? 'active' : ''}`}
-                  aria-label="Toggle User Preferences"
-                />
-              </div>
-            </div>
-          )}
           <CookieToggle
             label={t('marketing.title')}
             description={t('marketing.description')}
             enabled={marketing}
             onToggle={() => setMarketing(!marketing)}
           />
-          {t('marketing.personalizedAds') && (
-            <div className="ml-4 p-4 rounded-lg" style={{ background: 'var(--bg-secondary)' }}>
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>{t('marketing.personalizedAds')}</p>
-                  <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>{t('marketing.personalizedAdsDesc')}</p>
-                </div>
-                <button
-                  onClick={() => setMarketing(!marketing)}
-                  className={`cookie-toggle flex-shrink-0 ${marketing ? 'active' : ''}`}
-                  aria-label="Toggle Personalized Ads"
-                />
-              </div>
-            </div>
-          )}
         </div>
 
-        {t('consentManagement.description') && (
-          <p className="text-sm mb-6" style={{ color: 'var(--text-muted)' }}>{t('consentManagement.description')}</p>
-        )}
-
-        <div className="flex gap-4">
-          <button
-            onClick={handleSave}
-            className="px-6 py-2.5 rounded-full text-sm font-medium text-white transition-colors"
-            style={{ background: 'var(--accent)' }}
-          >
-            {saved ? t('saved') : t('save')}
-          </button>
-          {t('declineAll') && (
-            <button
-              onClick={handleDeclineAll}
-              className="px-6 py-2.5 rounded-full text-sm font-medium transition-colors"
-              style={{ background: 'var(--card-bg)', color: 'var(--text-secondary)', border: '1px solid var(--border-color)' }}
-            >
-              {t('declineAll')}
-            </button>
-          )}
-        </div>
+        <button
+          onClick={handleSave}
+          className="px-6 py-2.5 rounded-full text-sm font-medium text-white transition-colors"
+          style={{ background: 'var(--accent)' }}
+        >
+          {saved ? t('saved') : t('save')}
+        </button>
       </div>
     </div>
   );

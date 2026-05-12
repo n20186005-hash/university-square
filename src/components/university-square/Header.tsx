@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/routing';
 import LanguageToggle from './LanguageToggle';
 import ThemeToggle from './ThemeToggle';
 import { useState, useEffect } from 'react';
@@ -18,33 +17,28 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled 
-          ? 'bg-bg-secondary/95 backdrop-blur-sm border-b border-border' 
-          : 'bg-transparent'
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+      style={{
+        background: scrolled ? 'var(--bg-secondary)' : 'transparent',
+        borderBottom: scrolled ? '1px solid var(--border-color)' : 'none',
+        backdropFilter: scrolled ? 'blur(12px)' : 'none',
+      }}
     >
-      <div className="container-max px-4 sm:px-6 h-16 flex items-center justify-between">
-        <Link 
-          href="/" 
-          className={`font-display text-lg font-semibold tracking-tight transition-colors ${
-            scrolled ? 'text-text-primary' : 'text-white'
-          }`}
-        >
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+        <a href="/university-square" className="font-display text-lg font-semibold tracking-tight" style={{ color: scrolled ? 'var(--text-primary)' : '#fff' }}>
           University Square
-        </Link>
+        </a>
 
         <nav className="hidden md:flex items-center gap-6">
           {(['gallery', 'reviews', 'map'] as const).map((section) => (
-            <Link
+            <a
               key={section}
-              href={`/#${section}` as any}
-              className={`text-sm font-medium transition-colors hover:text-accent ${
-                scrolled ? 'text-text-secondary' : 'text-white/85'
-              }`}
+              href={`/#${section}`}
+              className="text-sm font-medium transition-colors"
+              style={{ color: scrolled ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
             >
               {t(section)}
-            </Link>
+            </a>
           ))}
         </nav>
 

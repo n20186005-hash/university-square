@@ -10,15 +10,15 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/gallery/image-1.jpg"
+          src="/gallery/images (1).jpg"
           alt="University Square"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 hero-overlay" />
+        <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container-max px-4 sm:px-6 w-full">
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 w-full">
         <div className="max-w-3xl">
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-4 animate-fade-in-up">
             {t('title')}
@@ -34,7 +34,7 @@ export default function Hero() {
                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
               </svg>
               <span className="text-white text-sm font-medium">{t('rating')}</span>
-              <span className="text-white/60 text-xs">({t('reviewCount')})</span>
+              <span className="text-white/60 text-xs">({t('reviewCount')} reviews)</span>
             </div>
             <div className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">

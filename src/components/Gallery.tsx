@@ -1,51 +1,154 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
+import { useState, useCallback } from 'react';
 
 export default function Gallery() {
   const t = useTranslations('gallery');
-  const captions = t.raw('captions') as string[];
+  const messages = useMessages() as any;
+  const photos = (messages?.gallery?.photos || []) as Array<{ src: string; alt: string }>;
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+
+  const goToPrevious = useCallback(() => {
+    setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
+  }, [photos.length]);
+
+  const goToNext = useCallback(() => {
+    setCurrentIndex((prev) => (prev === photos.length - 1 ? 0 : prev + 1));
+  }, [photos.length]);
+
+  const openLightbox = () => setIsLightboxOpen(true);
+  const closeLightbox = () => setIsLightboxOpen(false);
+
+  if (photos.length === 0) return null;
 
   return (
-    <section id="gallery-section" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-12">
+    <>
+      <section id="gallery" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
+        <div className="max-w-6xl mx-auto">
           <h2
-            className="font-display text-3xl sm:text-4xl font-semibold mb-4"
+            className="font-display text-3xl sm:text-4xl font-semibold mb-2"
             style={{ color: 'var(--text-primary)' }}
           >
             {t('title')}
           </h2>
-          <p className="text-lg" style={{ color: 'var(--text-secondary)' }}>{t('subtitle')}</p>
-          <div className="w-12 h-0.5 mx-auto mt-4" style={{ background: 'var(--accent)' }} />
-        </div>
+          <p className="mb-8" style={{ color: 'var(--text-muted)' }}>{t('subtitle')}</p>
+          <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {captions.map((caption, i) => (
-            <div key={i} className="gallery-item aspect-square rounded-lg overflow-hidden" style={{ background: 'var(--bg-tertiary)' }}>
-              <div className="w-full h-full flex items-center justify-center p-4">
-                <span className="text-sm text-center" style={{ color: 'var(--text-secondary)' }}>{caption}</span>
-              </div>
+          <div className="relative">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+              {photos.slice(0, 8).map((photo, i) => (
+                <div
+                  key={i}
+                  className={`gallery-item relative group cursor-pointer ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
+                  onClick={() => {
+                    setCurrentIndex(i);
+                    openLightbox();
+                  }}
+                >
+                  <img
+                    src={photo.src}
+                    alt={photo.alt}
+                    className="w-full h-full object-cover rounded-lg"
+                    style={{ minHeight: i === 0 ? '400px' : '180px' }}
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
+                    <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                      {photo.alt}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
 
-        <div className="text-center mt-8">
-          <a
-            href="https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-medium transition-colors"
-            style={{ background: 'var(--accent)', color: '#fff' }}
-          >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-              <circle cx="12" cy="10" r="3"/>
-            </svg>
-            {t('viewAll')}
-          </a>
+            {photos.length > 1 && (
+              <>
+                <button
+                  onClick={goToPrevious}
+                  className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
+                  aria-label="Previous photo"
+                >
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <polyline points="15 18 9 12 15 6" />
+                  </svg>
+                </button>
+                <button
+                  onClick={goToNext}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
+                  aria-label="Next photo"
+                >
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </button>
+              </>
+            )}
+
+            <div className="flex justify-center mt-6 gap-4 items-center">
+              <a
+                href={t('mapsUrl') || 'https://maps.app.goo.gl/G79gX2rTGNG9dMhw7'}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm hover:underline"
+                style={{ color: 'var(--accent)' }}
+              >
+                {t('viewAll')}
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      {isLightboxOpen && (
+        <div
+          className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center"
+          onClick={closeLightbox}
+        >
+          <button
+            onClick={closeLightbox}
+            className="absolute top-4 right-4 w-10 h-10 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
+            aria-label="Close lightbox"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+
+          <button
+            onClick={(e) => { e.stopPropagation(); goToPrevious(); }}
+            className="absolute left-4 w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
+            aria-label="Previous photo"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+              <polyline points="15 18 9 12 15 6" />
+            </svg>
+          </button>
+
+          <img
+            src={photos[currentIndex].src}
+            alt={photos[currentIndex].alt}
+            className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"
+            onClick={(e) => e.stopPropagation()}
+          />
+
+          <button
+            onClick={(e) => { e.stopPropagation(); goToNext(); }}
+            className="absolute right-4 w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
+            aria-label="Next photo"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+          </button>
+
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-sm">
+            {currentIndex + 1} / {photos.length}
+          </div>
+        </div>
+      )}
+    </>
   );
 }

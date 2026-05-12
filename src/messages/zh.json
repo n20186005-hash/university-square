@@ -4,6 +4,7 @@
     "description": "探索布加勒斯特大学广场的完整指南。了解开放时间、交通路线、周边景点、游览攻略和精彩照片。罗马尼亚1989年革命重要象征，历史文化广场。"
   },
   "header": {
+    "siteName": "大学广场",
     "home": "首页",
     "gallery": "图集",
     "reviews": "评价",
@@ -205,7 +206,32 @@
     "mapsUrl": "https://maps.app.goo.gl/TfLYWpuKv5kHGqsW9",
     "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.5!2d26.1000!3d44.4360!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sen!2sro!4v1"
   },
+  "officialManagement": {
+    "title": "官方管理信息",
+    "text": "大学广场的管理和维护属于布加勒斯特市政厅（Primăria Municipiului București）的管辖范围。对于官方活动、拍摄许可或任何行政咨询，请直接联系当地有关部门。"
+  },
+  "knowledge": {
+    "title": "历史与文化背景",
+    "sections": [
+      {
+        "id": "1",
+        "title": "1989年罗马尼亚革命",
+        "content": "大学广场是1989年罗马尼亚革命的核心地点之一。正是在这里，学生和市民聚集在一起抗议，使其成为罗马尼亚人民自由和民主的强大象征。"
+      },
+      {
+        "id": "2",
+        "title": "建筑意义",
+        "content": "广场周围环绕着标志性建筑，包括布加勒斯特大学主楼、国家剧院和洲际酒店。新古典主义和现代建筑的并置反映了这座城市复杂的历史。"
+      },
+      {
+        "id": "3",
+        "title": "文化中心",
+        "content": "今天，大学广场仍然是一个充满活力的文化中心。这里经常举办露天音乐会、季节性集市和公众集会。附近的老城街道让人一窥布加勒斯特繁华的社会生活。"
+      }
+    ]
+  },
   "footer": {
+    "siteName": "大学广场",
     "rights": "© 2026 University Square Guide. 保留所有权利。",
     "privacy": "隐私政策",
     "terms": "服务条款",
@@ -226,7 +252,7 @@
     "officialLinks.visitBucharest": "Visit Bucharest",
     "officialLinks.pmb": "Primăria Municipiului București",
     "officialLinks.mnir": "MNIR",
-    "officialLinks.inp": "INP",
+    "officialLinks.inp": "INP", 
     "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。",
     "gallery": "图集",
     "reviews": "评价",
